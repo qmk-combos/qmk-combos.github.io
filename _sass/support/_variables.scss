@@ -1,9 +1,28 @@
+
+/// Solarized colors
+$base03:    #002b36;
+$base02:    #073642;
+$base01:    #586e75;
+$base00:    #657b83;
+$base0:     #839496;
+$base1:     #93a1a1;
+$base2:     #eee8d5;
+$base3:     #fdf6e3;
+$yellow:    #b58900;
+$orange:    #cb4b16;
+$red:       #dc322f;
+$magenta:   #d33682;
+$violet:    #6c71c4;
+$blue:      #268bd2;
+$cyan:      #2aa198;
+$green:     #859900;
+
 //
 // Typography
-//
-
-$body-font-family: -apple-system, BlinkMacSystemFont, "helvetica neue", helvetica, roboto, noto, "segoe ui", arial, sans-serif !default;
-$mono-font-family: "SFMono-Regular", Menlo, Consolas, Monospace !default;
+//$body-font-family: -apple-system, BlinkMacSystemFont, "helvetica neue", helvetica, roboto, noto, "segoe ui", arial, sans-serif !default;
+$body-font-family: 'Inconsolata', monospace;
+//$mono-font-family: "SFMono-Regular", Menlo, Consolas, Monospace !default;
+$mono-font-family:  'Inconsolata', monospace;
 $root-font-size: 16px !default;         // Base font-size for rems
 $body-line-height: 1.4 !default;
 $content-line-height: 1.5 !default;
@@ -51,6 +70,21 @@ $red-100: #f96e65 !default;
 $red-200: #e94c4c !default;
 $red-300: #dd2e2e !default;
 
+$body-background-color: $base3;
+$sidebar-color: $base2;
+$search-background-color: $white !default;
+$table-background-color: $base2;
+$code-background-color: $base2;
+
+$body-text-color: $base02;
+$body-heading-color: $base03;
+$search-result-preview-color: $grey-dk-000 !default;
+$nav-child-link-color: $grey-dk-100 !default;
+$link-color: $orange;
+$btn-primary-color: $orange;
+$base-button-color: $base2;
+
+/*
 $body-background-color: $white !default;
 $sidebar-color: $grey-lt-000 !default;
 $search-background-color: $white !default;
@@ -63,8 +97,7 @@ $search-result-preview-color: $grey-dk-000 !default;
 $nav-child-link-color: $grey-dk-100 !default;
 $link-color: $purple-000 !default;
 $btn-primary-color: $purple-100 !default;
-$base-button-color: #f7f7f7 !default;
-
+$base-button-color: #f7f7f7 !default; */
 //
 // Spacing
 //
@@ -100,9 +133,10 @@ $sp-10: map-get($spacers, sp-10) !default; // 4.5  rem == 48px
 // Borders
 //
 
-$border: 1px solid !default;
+$border: 2px solid !default;
 $border-radius: 4px !default;
-$border-color: $grey-lt-100 !default;
+//$border-color: $grey-lt-100 !default;
+$border-color: $base3;
 
 //
 // Grid system
@@ -112,8 +146,8 @@ $gutter-spacing: $sp-6 !default;
 $gutter-spacing-sm: $sp-4 !default;
 $nav-width: 264px !default;
 $nav-width-md: 248px !default;
-$content-width: 800px !default;
-$header-height: 60px !default;
+$content-width: 900px !default;
+$header-height: r0px !default;
 $search-results-width: 500px !default;
 
 //

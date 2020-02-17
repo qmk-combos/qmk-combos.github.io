@@ -38,4 +38,4 @@ and other abritrary keycodes take a look at the [QMK SEND_STRING docs](https://g
 
 Take a few minutes to play around and make a few of your own and add them to your ```combos.def```! Next up, managing dictionaries.
 
-[Managing Dicts](/manage){: .btn .btn-purple }
+[Managing Dicts](/docs/manage){: .btn .btn-primary }

@@ -13,9 +13,9 @@ to a whole new level.
 
 Download some of the avalible dictionaries or start modifying your own!
 
-[Install Now](/install){: .btn .btn-purple }
-[Read the docs](/docs){: .btn }
-[Learn more](/docs){: .btn }
+[Install Now](/docs/install){: .btn .btn-primary }
+[View All Dicts](/docs/dicts){: .btn  }
+
 
 ---
 ## Some user dictionaries
@@ -24,4 +24,8 @@ Name							| Description 					                    				 																| Author 
 :-----------------|:----------------------------------------------------------------------------------|:-------|:------
 vim-helpers 			| Vim-focused combos for easy access to Esc/: and others														| germ	 | [view](https://github.com/qmk-combos/combos/tree/master/combos)
 
-[View All Dicts](/dicts){: .btn .btn-purple }
+## Why?
+
+Keyboards are too big and we need some serious ergonomic reform in our lives.  
+The less keystrokes needed, the better. Look at 40%~ keyboards, small keyboards  
+big utility :)
