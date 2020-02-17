@@ -6,10 +6,10 @@ nav_order: 3
 
 # What is a Chord? What is a Combo?
 
-There is a fundamental difference between the two! A Combo is a native QMK  
-feature and only applies to multi-key sequences and SEND_STRING(). However  
-it can't handle layering, processing strokes in chords and many other things  
-required on smaller or heavily chorded keyboards! The Chording engine is the  
+There is a fundamental difference between the two! A Combo is a native QMK
+feature and only applies to multi-key sequences and SEND_STRING(). However
+it can't handle layering, processing strokes in chords and many other things
+required on smaller or heavily chorded keyboards! The Chording engine is the
 solution to this, but only has limited interoperability with QMK.
 
 If you are only using Combos for _augmenting_ a keymap, don't use the chording engine, use the Combos!

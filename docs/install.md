@@ -8,8 +8,6 @@ nav_order: 1
 
 Lets get this party started, you'll need a [QMK Powered Keyboard](https://qmk.fm/), a working [QMK build environment](https://beta.docs.qmk.fm/newbs/newbs_getting_started). and your own keymap. Once you have those set up, come on back. If you're using a newer [g Heavy Inudstries](https://www.gboards.ca)/ board these may be enabled already!
 
----
-
 ## **Combos**
 
 
@@ -24,7 +22,7 @@ This line lets the compiler know where to look for combos. Now make a empty file
 
 Add this to your ```config.h``` in your keymap directory. It's optional, but helps with errors from typing too fast! ```#define COMBO_TERM 50```
 
-### Your first combo
+## Your first combo
 In ```combos.def``` add this statement.
 ```SUBS(helloWorld,       "QMK is pretty rad eh?",       KC_H, KC_J)```
 
@@ -35,7 +33,7 @@ If you're **not enabling the Chording Engine**, head on over to
 
 [Creating Combos](/docs/combos){: .btn .btn-primary}
 
-### Chording 
+## Chording 
 
 If you wish to use the onboard chording engine, a little bit more tweaking needs to be done. The easy way is to grab a preconfigured board, but in lieu of that, there's a default config that is tuned for QWERTY, you can use this as a base it's over in ```gboards/g/config_default.h```, copy this to your keymap folder as ```config_engine.h```
 
@@ -53,5 +51,3 @@ If you've done everything correctly, your firmware should compile and output tha
 Head on over to the next section for how to import existing dictionaries and whatnot
 
 [Creating Chords](/docs/chords){: .btn .btn-primary}
-
-
