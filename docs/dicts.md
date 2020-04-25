@@ -9,6 +9,7 @@ nav_order: 6
 Name| Description | Author | Link
 :---|:------------|:-------|:------
 vim-helpers | Vim-focused combos for easy access to Esc/: and others | germ	 | [view](https://github.com/qmk-combos/combos/tree/master/combos)
+eng-combos | Completions of the top 100 English words | germ	 | [view](https://github.com/qmk-combos/combos/tree/master/combos)
 
 # Chording Dicts
 
