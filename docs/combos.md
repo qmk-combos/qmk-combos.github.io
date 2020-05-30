@@ -44,7 +44,7 @@ Take a few minutes to play around and make a few of your own and add them to you
 
 ## TOGG()
 Togg is a simple method, it turns on and off layers! Make sure your layer names are defined before your engine include (in keymap.c) and you can use them here. A word of warning, due to combos being character based once you toggle a layer _make sure you can press the keys to get out!_
-The general form is similar to the previous, ```SUBS(ident, layer, keySequence...)```. 
+The general form is similar to the previous, ```TOGG(ident, layer, keySequence...)```. 
 
 ***Ident***:A unique identifier, something descriptive works, but asdfffdsadf also works.
 
