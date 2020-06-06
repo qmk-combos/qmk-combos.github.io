@@ -20,7 +20,8 @@ COMBO_ENABLE=yes
 
 This line lets the compiler know where to look for combos. Now make a empty file named ```combos.def``` in your keymap directory. 
 
-In ```keymap.c``` add ```#include "g/keymap_combo.h"``` to the very top of the file. This will include your combos into the compile process.
+In ```keymap.c``` add ```#include "g/keymap_combo.h"``` just after ```#include QMK_KEYBOARD_H```. This will include your combos into the compile process.
+
 
 Lastly add this to your ```config.h``` in your keymap directory. It's optional, but helps with errors from typing too fast! ```#define COMBO_TERM 50```
 
