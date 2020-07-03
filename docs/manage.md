@@ -11,7 +11,7 @@ dictionaries: Combo dictionaries (```combos.def```) and Chording dictionaries (`
 
 If you're here off the begining, there's going to be more creating dictionries than just importing
 them. Be sure to PR your dictionaries against [qmk-combos/combos](https://github.com/qmk-combos/combos)
-any PRs are appriciated!
+any PRs are appreciated!
 
 ## combos.def
 Let's start with an example
