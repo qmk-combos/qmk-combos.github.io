@@ -17,7 +17,7 @@ The ```COMB()``` Macro is responsible for take in a combo and outputting ***a si
 
 ***Ident***:A unique identifier, something descriptive works, but asdfffdsadf also works.
 
-***keycodeToEmit:***A keycode from the [QMK Keycode list](https://beta.docs.qmk.fm/features/keycodes_basic). This includes Mouse, Shifted and Quantum keycodes.
+***keycodeToEmit:***A keycode from the [QMK Keycode list](https://beta.docs.qmk.fm/using-qmk/simple-keycodes/keycodes_basic). This includes Mouse, Shifted and Quantum keycodes.
 
 ***keySequence:*** a series of keycodes to be pressed before triggering this output.
 
