@@ -23,7 +23,9 @@ This line lets the compiler know where to look for combos. Now make a empty file
 In ```keymap.c``` add ```#include "g/keymap_combo.h"``` just after ```#include QMK_KEYBOARD_H```. This will include your combos into the compile process.
 
 
-Lastly add this to your ```config.h``` in your keymap directory. It's optional, but helps with errors from typing too fast! ```#define COMBO_TERM 50```
+Next, you need to make sure ```#define COMBO_VARIABLE_LEN``` is included in ```config.h``` in your keymap directory.
+
+Lastly, you can also define a timeout value for combos in ```config.h```. It's optional, but helps with errors from typing too fast! ```#define COMBO_TERM 50```. If you don't set this, value of ```TAPING_TERM``` is used.
 
 ## Your first combo
 In ```combos.def``` add this statement.
