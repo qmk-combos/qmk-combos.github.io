@@ -49,7 +49,7 @@ through to regular QMK processing if these aren't hooked. You'll need the ending
 
 Similar to stock QMK there are a handful of functions you can overide to change how the engine functions!
 Just define these in your keymap.c or in another file in your build.
-You should have a good understanding of [this page from the QMK docs!](https://beta.docs.qmk.fm/for-a-deeper-understanding/understanding_qmk#process-record)
+You should have a good understanding of [this page from the QMK docs!](https://beta.docs.qmk.fm/developing-qmk/for-a-deeper-understanding/understanding_qmk#process-record)
 
 ### process_engine_post
 
